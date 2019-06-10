@@ -7,8 +7,9 @@ from sklearn.preprocessing import MinMaxScaler
 from sklearn.model_selection import train_test_split
 
 
+#Download do dataset em: https://www.kaggle.com/mczielinski/bitcoin-historical-data
 
-#Selecionando a base de dados 
+#Selecionando a base de dados
 base = pd.read_csv('coinbaseUSD_1-min_data_2014-12-01_to_2019-01-09.csv')
 
 #Removendo linhas vazias 
