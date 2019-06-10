@@ -1,5 +1,6 @@
-#Necessária a instalação das bibliotecas: keras, Numpy, Pandas, Matplotlib e Sklearn.
+#Trabalho de predição de preço de Bitcoin, usando uma rede neural LSTM, com base no histórico de preços do Bitcoin
 
+#Necessária a instalação das bibliotecas: keras, Numpy, Pandas, Matplotlib e Sklearn.
 from keras.models import Sequential
 from keras.layers import Dense, Dropout, LSTM
 import numpy as np 
